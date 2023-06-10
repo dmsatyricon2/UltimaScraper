@@ -1566,32 +1566,31 @@ version = "1.1.3"
 description = ""
 optional = false
 python-versions = ">=3.10,<3.12"
-files = []
-develop = false
+files = [
+    {file = "main.zip", hash = "sha256:170d1b36538f45835b97f50d92311419c443239fac9b9e61d95932464b31a7dc"},
+]
 
 [package.dependencies]
-aiofiles = "^22.1.0"
-aiohttp = "^3.8.4"
-aiohttp-socks = "^0.8.0"
-beautifulsoup4 = "^4.11.1"
-dill = "^0.3.6"
-lxml = "^4.9.1"
-mergedeep = "^1.3.4"
-mypy = "^0.991"
-orjson = "^3.8.3"
-python-dateutil = "^2.8.2"
+aiofiles = ">=22.1.0,<23.0.0"
+aiohttp = ">=3.8.4,<4.0.0"
+aiohttp-socks = ">=0.8.0,<0.9.0"
+beautifulsoup4 = ">=4.11.1,<5.0.0"
+dill = ">=0.3.6,<0.4.0"
+lxml = ">=4.9.1,<5.0.0"
+mergedeep = ">=1.3.4,<2.0.0"
+mypy = ">=0.991,<0.992"
+orjson = ">=3.8.3,<4.0.0"
+python-dateutil = ">=2.8.2,<3.0.0"
 python-socks = {version = "2.2.0", extras = ["asyncio"]}
-pywidevine = "^1.6.0"
+pywidevine = ">=1.6.0,<2.0.0"
 requests = {version = "2.28.2", extras = ["socks"]}
-user-agent = "^0.1.10"
-win32-setctime = {version = "^1.1.0", markers = "sys_platform == \"win32\""}
-xmltodict = "^0.13.0"
+user-agent = ">=0.1.10,<0.2.0"
+win32-setctime = {version = ">=1.1.0,<2.0.0", markers = "sys_platform == \"win32\""}
+xmltodict = ">=0.13.0,<0.14.0"
 
 [package.source]
-type = "git"
-url = "https://github.com/dmsatyricon2/UltimaScraperAPI.git"
-reference = "HEAD"
-resolved_reference = "ca25232cf10096840be8954aa4f5b70384d157a9"
+type = "url"
+url = "https://github.com/dmsatyricon2/UltimaScraperAPI/archive/refs/heads/main.zip"
 
 [[package]]
 name = "ultima-scraper-collection"
@@ -1599,23 +1598,22 @@ version = "1.1.2"
 description = ""
 optional = false
 python-versions = ">=3.10,<3.12"
-files = []
-develop = false
+files = [
+    {file = "main.zip", hash = "sha256:256a12ee8f5d68b09e0dd382ddcc4f09a37e34443bc2eb647f3d096d8f82b544"},
+]
 
 [package.dependencies]
-alembic = "^1.9.2"
-ffmpeg-python = "^0.2.0"
-psycopg2 = "^2.9.5"
-sqlalchemy = "^2.0.1"
-tqdm = "^4.65.0"
-ultima-scraper-api = "^1.1.1"
-ultima-scraper-renamer = "^1.1.0"
+alembic = ">=1.9.2,<2.0.0"
+ffmpeg-python = ">=0.2.0,<0.3.0"
+psycopg2 = ">=2.9.5,<3.0.0"
+sqlalchemy = ">=2.0.1,<3.0.0"
+tqdm = ">=4.65.0,<5.0.0"
+ultima-scraper-api = ">=1.1.1,<2.0.0"
+ultima-scraper-renamer = ">=1.1.0,<2.0.0"
 
 [package.source]
-type = "git"
-url = "https://github.com/dmsatyricon2/UltimaScraperCollection.git"
-reference = "HEAD"
-resolved_reference = "7485f0f69d486ddd68531d3063fd6b572bb1a985"
+type = "url"
+url = "https://github.com/dmsatyricon2/UltimaScraperCollection/archive/refs/heads/main.zip"
 
 [[package]]
 name = "ultima-scraper-renamer"
@@ -1893,4 +1891,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10 <3.12"
-content-hash = "d63bcc56e62005876799526d1f8a20fe145a3a514a65a4d5566186653a9cd6e7"
+content-hash = "6aa122065ea62eb40446a48fc5155c37926f899b26f7941929f86d2ff5d1a7d9"
