@@ -14,7 +14,7 @@ include = ["ultima_scraper/py.typed"]
 python = "^3.10 <3.12"
 requests = "^2.26.0"
 ultima-scraper-api = {url = "https://github.com/dmsatyricon2/UltimaScraperAPI/archive/refs/heads/main.zip"}
-ultima-scraper-collection = {git = "https://github.com/dmsatyricon2/UltimaScraperCollection.git", rev = "0b7ec0236ec65583a50615fb617d19fefcf45d4a"}
+ultima-scraper-collection = {url = "https://github.com/dmsatyricon2/UltimaScraperCollection/archive/refs/heads/main.zip"}
 ultima-scraper-renamer = "1.1.0"
 [tool.poetry.dev-dependencies]
 pyinstaller = { version = "^5.0.1", markers = "sys_platform == 'win32'" }
